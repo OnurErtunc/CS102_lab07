@@ -36,7 +36,7 @@ public class SimpleQueue {
      *
      * @return
      */
-    public boolean isEnpty() {
+    public boolean isEmpty() {
         return queue.isEmpty();
     }
 

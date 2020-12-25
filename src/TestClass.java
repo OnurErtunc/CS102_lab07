@@ -1,3 +1,9 @@
+/**
+ * test class of the lab07
+ *
+ * @author Onur Ertunc
+ * @version 25.12.2020
+ */
 public class TestClass {
 
     public static void main( String[] args ) {
@@ -7,6 +13,7 @@ public class TestClass {
         SimpleQueue testQueue = new SimpleQueue();
         SimpleStackWithQueue testStackQueue = new SimpleStackWithQueue();
 
+        // Program code
         testList.addToTail( "2" );
         testList.addToTail( "4" );
         testList.addToTail( "5" );
@@ -40,7 +47,7 @@ public class TestClass {
         System.out.println( "--------------------------- Queue Test --------------------------------" );
 
         System.out.println( "testQueue is empty result:" );
-        System.out.print( testQueue.isEnpty() );
+        System.out.print( testQueue.isEmpty() );
 
         System.out.println( "Queue - enqueue: " );
         testQueue.enqueue( "o" );
@@ -58,7 +65,7 @@ public class TestClass {
           System.out.println();
          */
         System.out.println( "testQueue is empty result:" );
-        System.out.print( testQueue.isEnpty() );
+        System.out.print( testQueue.isEmpty() );
         System.out.println();
 
         System.out.println( "Queue - dequeue: " );
@@ -72,7 +79,7 @@ public class TestClass {
         System.out.println();
 
         System.out.println( "testQueue is empty result:" );
-        System.out.print( testQueue.isEnpty() );
+        System.out.print( testQueue.isEmpty() );
         System.out.println();
         System.out.println( "-----------------------------------------------------------------------" );
         System.out.println();

@@ -27,7 +27,7 @@ public class SimpleStackWithQueue {
      */
     public void push( String data ) {
         queue2.enqueue( data );
-        while( !queue1.isEnpty() ) {
+        while( !queue1.isEmpty() ) {
             queue2.enqueue( queue1.dequeue() );
         }
         SimpleQueue temp = queue1;
