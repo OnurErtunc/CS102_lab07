@@ -90,6 +90,7 @@ public class SimpleLinkedList {
 
         while ( temp != null ) {
             returnUnit = returnUnit + temp.getData() + " ";
+            temp = temp.getNext();
         }
 
         return returnUnit;
