@@ -89,6 +89,7 @@ public class SimpleLinkedList {
         Node temp = head;
 
         while ( temp != null ) {
+
             returnUnit = returnUnit + temp.getData() + " ";
             temp = temp.getNext();
         }
